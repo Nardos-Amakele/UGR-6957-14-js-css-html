@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Nardos</title>
-    <link rel="icon" type="image/x-icon" href="/UGR-6957-14/src/images/mylogo.jpg">
+    <link rel="icon" type="image/x-icon" href="/src/images/mylogo.jpg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/src/css/styles.css">
 </head>
-<body>
+<body id="new3">
     <header>
-        <img src="/UGR-6957-14/src/images/mylogo.jpg" alt="LOGO" width="70" height="70">
-        <h2>Nardos Amakele</h2>
+        <div class="logo">
+            <img src="/src/images/mylogo.jpg" alt="LOGO" width="70" height="70">
+            <h2>Nardos Amakele</h2>
+        </div>
         <nav>
-            <ul>
+            <ul class="play">
                 <li><a href="home.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="skills.html">Skills</a></li>
@@ -22,7 +25,7 @@
 
         </nav>
     </header>
-    <main>
+    <main id="new2">
         <section class="contact">
             <h1>Contact Me</h1>
             <hr>
@@ -37,10 +40,10 @@
         <section class="submit">
             <h2>Let's get in touch. Send me a message:</h2>
             <form action="/my_server.php" target="_blank">
-                <p><input type="text" placeholder="Name" required name="Name"></p>
-                <p><input type="text" placeholder="Email" required name="Email"></p>
-                <p><input type="text" placeholder="Subject" required name="Subject"></p>
-                <p><input type="text" placeholder="Message" required name="Message"></p>
+                <p><input type="text" placeholder="Name" required name="Name"class="inputs"></p>
+                <p><input type="text" placeholder="Email" required name="Email"class="inputs"></p>
+                <p><input type="text" placeholder="Subject" required name="Subject"class="inputs"></p>
+                <p><input type="text" placeholder="Message" required name="Message" class="inputs"></p>
                 <p>
                   <button  type="submit">
                     <i> SEND MESSAGE</i>
@@ -57,7 +60,7 @@
         </address>
     </main>
     <footer>
-        <ul>
+        <ul class="last">
             <li><a href="https://www.facebook.com/nardos.amakele/"  target="_blank" class="fa fa-facebook"></a></li>
             <li><a href="https://www.instagram.com/nardosamakele/"  target="_blank" class="fa fa-instagram"></a></li>
             <li><a href="https://www.snapchat.com/add/nardos_amakele?share_id=-AAOjmdlIyM&locale=en-GB"   target="_blank" class="fa fa-snapchat-ghost"></a></li>
