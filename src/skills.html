@@ -9,24 +9,26 @@
     <link rel="stylesheet" href="/src/css/styles.css">
 </head>
 <body>
-    <header>
-        <div class="logo">
+    <header class="header">
+        <div class="header-logo">
             <img src="/src/images/mylogo.jpg" alt="LOGO" width="70" height="70">
             <h2>Nardos Amakele</h2>
         </div>
         <nav>
-            <ul class="play">
+            <ul class="header__nav topnav" id="myTopnav">
                 <li><a href="home.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="skills.html">Skills</a></li>
                 <li><a href="others.html">Others</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
         </nav>
     </header>
-    <main id="new">
-        <section class="das">
+    <main id="skills-main">
+        <section class="skills-main-section">
             <h1>My Expertise</h1>
             <hr>
             <div>
@@ -53,7 +55,7 @@
             <p class="content">As a skilled professional in networking Cisco, I possess a deep understanding and expertise in designing, implementing, and managing network infrastructures using Cisco technologies. With my knowledge of Cisco networking devices, protocols, and solutions, I am adept at configuring and troubleshooting complex network environments.Furthermore, I am well-versed in Cisco IOS (Internetwork Operating System) and have a strong understanding of network security principles. I have implemented robust security measures, including firewall rules, intrusion detection and prevention systems, and secure remote access solutions. In addition to my technical expertise, I possess excellent problem-solving skills, allowing me to quickly identify and resolve network issues. I am familiar with network monitoring and management tools, enabling proactive monitoring, performance optimization, and capacity planning. I have also recived a cisco badge and certificate for my qualificaions.</p>
             </div>
         </section>    
-        <aside id="bin">
+        <aside id="aside">
             <a href="https://www.credly.com/badges/6c516ac4-b204-4056-943d-e70a6f77be6f/linked_in?t=rzqsfh" target="_blank"><img src="/src/images/ciscobadge.png" alt="my badge" width="80" height="80" title="Click to view"></a>
         </aside>
         <div>
@@ -73,8 +75,8 @@
               </table>
         </div>
     </main>
-    <footer>
-        <ul class="last">
+    <footer class="footer">
+        <ul class="footer__social-links">
             <li><a href="https://www.facebook.com/nardos.amakele/"  target="_blank" class="fa fa-facebook"></a></li>
             <li><a href="https://www.instagram.com/nardosamakele/"  target="_blank" class="fa fa-instagram"></a></li>
             <li><a href="https://www.snapchat.com/add/nardos_amakele?share_id=-AAOjmdlIyM&locale=en-GB"   target="_blank" class="fa fa-snapchat-ghost"></a></li>

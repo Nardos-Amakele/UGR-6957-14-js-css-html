@@ -7,37 +7,40 @@
     <link rel="icon" type="image/x-icon" href="/src/images/mylogo.jpg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/src/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <header>
-        <div class="logo">
+    <header class="header">
+        <div class="header-logo">
             <img src="/src/images/mylogo.jpg" alt="LOGO" width="70" height="70">
             <h2>Nardos Amakele</h2>
         </div>
         <nav>
-            <ul class="play">
+            <ul class="header__nav topnav" id="myTopnav">
                 <li><a href="home.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="skills.html">Skills</a></li>
                 <li><a href="others.html">Others</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
         </nav>
     </header>
-    <main id="check">
+    <main id="home-main">
         <!--has a background image-->
-        <section class="top">
+        <section class="main-section--top">
             <h1>Welcome, I'm Nardos</h1>
             <h3>Software Engineer and Web Developer</h3>
         </section>
-        <section class="bottom">
+        <section class="main-section--bottom">
             <blockquote cite="https://letslearnslang.com/the-future-belongs-to-those-who-believe-in-the-beauty-of-their-dreams-by-eleanor-roosevelt/"><q>The future belongs to those who beleive in the beauty of their dreams</q></blockquote>
             <h5>by Eleanor Roosevelt</h5>
         </section>
     </main>
-    <footer>
-        <ul class="last">
+    <footer class="footer">
+        <ul class="footer__social-links">
             <li><a href="https://www.facebook.com/nardos.amakele/"  target="_blank" class="fa fa-facebook"></a></li>
             <li><a href="https://www.instagram.com/nardosamakele/"  target="_blank" class="fa fa-instagram"></a></li>
             <li><a href="https://www.snapchat.com/add/nardos_amakele?share_id=-AAOjmdlIyM&locale=en-GB"   target="_blank" class="fa fa-snapchat-ghost"></a></li>

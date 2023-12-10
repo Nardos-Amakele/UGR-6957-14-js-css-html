@@ -9,31 +9,33 @@
     <link rel="stylesheet" href="/src/css/styles.css">
 </head>
 <body>
-    <header>
-        <div class="logo">
+    <header class="header">
+        <div class="header-logo">
             <img src="/src/images/mylogo.jpg" alt="LOGO" width="70" height="70">
             <h2>Nardos Amakele</h2>
         </div>
         <nav>
-            <ul class="play">
+            <ul class="header__nav topnav" id="myTopnav">
                 <li><a href="home.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="skills.html">Skills</a></li>
                 <li><a href="others.html">Others</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
         </nav>
     </header>
-    <main id="adis">
-        <div id="vid">
+    <main id="others-main">
+        <div id="video">
             <video src="/src/images/myvideo.mp4" controls>
                 Your browser does not support the video tag.
               </video>
             <h1>Additional Information</h1>
         </div>
-        <section class="mix">
-            <div class="first class2">
+        <section class="others-main-container">
+            <div class="first others-main-class">
                 <h3><b>Hobbies</b></h3>
                 <ul>
                     <li>Playing guitar</li>
@@ -50,7 +52,7 @@
 
                 </ul>
             </div>
-            <div class="second class2">
+            <div class="second others-main-class">
                 <h3><b>Volunteer Work</b></h3>
                 <dl>
                     <dt title="A Volunteer Orrganization working on orphans."><b>Helping Hands:</b></dt>
@@ -65,7 +67,7 @@
                 </dd>
                 </dl>
             </div>
-            <div class="third class2">       
+            <div class="third others-main-class">       
                 <h3><b>Testimonials</b></h3>
                 <blockquote>
                   <p>"I'm extremely satisfied with the services provided. Miss Nardos went above and beyond to deliver outstanding results. Highly recommended!"</p>
@@ -90,8 +92,8 @@
             </div>
         </section>
     </main>
-    <footer>
-        <ul class="last">
+    <footer class="footer">
+        <ul class="footer__social-links">
             <li><a href="https://www.facebook.com/nardos.amakele/"  target="_blank" class="fa fa-facebook"></a></li>
             <li><a href="https://www.instagram.com/nardosamakele/"  target="_blank" class="fa fa-instagram"></a></li>
             <li><a href="https://www.snapchat.com/add/nardos_amakele?share_id=-AAOjmdlIyM&locale=en-GB"   target="_blank" class="fa fa-snapchat-ghost"></a></li>
