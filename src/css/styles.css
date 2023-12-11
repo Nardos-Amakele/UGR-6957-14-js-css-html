@@ -97,7 +97,7 @@ font-size: larger;
 }
 /* Home page */
 #home-main{
-background-image: url("/src/images/photo_2023-12-01_02-49-52.jpg");
+background-image: url("../src/images/photo_2023-12-01_02-49-52.jpg");
 position: relative;
 background-position: center;
 background-repeat: no-repeat;
