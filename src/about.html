@@ -7,6 +7,7 @@
     <link rel="icon" type="image/x-icon" href="../src/images/mylogo.jpg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../src/css/styles.css">
+    <script src="../src/js/java.js"></script>
 </head>
 <body>
     <header class="header">
@@ -42,26 +43,32 @@
             <h3>Educational background</h3>
         </section>
       <section class="about-second-section">
-            <div id="about-second-section__first" class="wrap">
+        <button id="prev" class="arrow prev " onclick="scrollDivs('prev')"><i class="fa fa-chevron-left"></i></button>
+        <div class="scrollable-container">
+            <div id="about-second-section__first" class="wrap" data-index="1">
                 <P>During my early years of education, in primary school, I attended Cecilia School and then, Saint Gabreal Monastry school. I beleive the bases of our future are on the hands of our early education. whether it be at home or school. This schools taught me a lot!</P>
                 <img src="../src/images/cecilia.jpg" alt="Cecilia School" width="70" height="100">
                 <a href="https://www.facebook.com/people/Saint-Gabriel-School/100068364932999/" target="_blank">
                     <img src="../src/images/gabreal.jpg" alt="St. Gabreal School" width="70" height="100">
                 </a>
             </div>
-            <div id="about-second-section__second" class="wrap">
+            <div id="about-second-section__second" class="wrap" data-index="2">
                 <p> I attended my highschool in Saint Daniel Comboni School. It is a chatolic school which is one of the best schools in the city. My highschool years were amazing from attending the best school to the friends I made, I would say it was one of the best moments of my life.</p>
                 <a href="https://www.facebook.com/combonihawassa/" target="_blank">
                     <img src="../src/images/comboni.jpg" alt="St. Daniel Comboni School" width="70" height="100">
                 </a>
             </div>
-            <div id="about-second-section__third" class="wrap">
+            <div id="about-second-section__third" class="wrap" data-index="3">
                 <p>I'm currently attending Addis Ababa University, AAiT campus, which is located in Addis Ababa, 5killo. The experiance so far is great and I'm learning a lot.</p>
                 <a href="http://www.aau.edu.et/" target="_blank">
                 <img src="../src/images/addisababa.png" alt="Addis Ababa University" width="70" height="100">
             </a>
             </div>
+        </div>
+        <button id="next" class="arrow next" onclick="scrollDivs('next')"><i class="fa fa-chevron-right"></i></button>
         </section>
+        
+        
     </main>
     <aside class="aside">
         <audio src="../src/images/myaudio.mp3" controls id="below">
